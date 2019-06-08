@@ -8,9 +8,19 @@ body {
 
 
 /* HEADER */
-
+header{
+  text-align: center;
+  min-height: 60vh;
+}
 
 /* MAIN CONTENT */
-
+main{
+  text-align: center;
+  min-height: 60vh;
+}
 
 /* FOOTER */
+footer {
+ text-align: right;
+  min-height: 60vh;
+}
