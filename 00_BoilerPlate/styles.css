@@ -1,4 +1,39 @@
 
+/* ENDGAME:  https://123movieshub.info/avengers-endgame-2019/ */
+
+
+
+
+/* RESOURCES 
+
+-MDN
+
+Instagram:
+  - fmondev
+  - samanthaming
+
+Youtube/Udemey
+  - Brad Traversy
+  - TechSith
+  - Andrew Mead
+
+
+*/
+
+
+/* GOALS 
+1) Better understanding of flexbox/CSSgrid
+-) Transitions/CSS animations
+-) image gallery
+-) positioning 
+
+*/
+
+
+
+
+
+
 
 body {
   background-color: rgba(225,255,255,.5);
@@ -9,8 +44,14 @@ body {
 
 /* HEADER */
 header{
-  text-align: center;
+  border-bottom: 1px #ccc solid;
   min-height: 60vh;
+  text-align: center;
+}
+
+header h1 {
+  border-bottom: 1px #ccc solid;
+  padding: 1rem;
 }
 
 /* MAIN CONTENT */
@@ -21,6 +62,7 @@ main{
 
 /* FOOTER */
 footer {
+  border-top: 1px #ccc solid;
  text-align: right;
   min-height: 60vh;
 }
