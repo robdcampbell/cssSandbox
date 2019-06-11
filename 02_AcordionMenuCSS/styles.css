@@ -1,5 +1,11 @@
+html,
 body {
+  background-color: #ebebeb;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  /* display: flex; */
 }
 
 ul {
@@ -12,6 +18,7 @@ li input[type='checkbox'] {
   z-index: -1;
 }
 li label {
+  color: #fff;
   display: block;
   cursor: pointer;
 }
@@ -27,10 +34,6 @@ input[type='checkbox']:checked + ul {
   height: auto;
 }
 
-html,
-body {
-  background-color: #ebebeb;
-}
 
 ul {
   margin: 0;
@@ -38,7 +41,7 @@ ul {
   border: solid 2px #fff;
   width: 14rem;
   margin: 6rem auto;
-  background-color: #156d81;
+  background-color: rgba(250, 85, 85, 0.5);
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -65,5 +68,5 @@ label {
   font-size: 1.25rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
-  background-color: #f4e060;
+  background-color:rgba(225, 52, 52,.5);
 }
