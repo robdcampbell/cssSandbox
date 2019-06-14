@@ -40,10 +40,10 @@ body {
 }
 
 .nav_item {
-  /* display: block; */
+  display: block;
 }
 
-.nav_link {
+ul .nav_link {
   display: block;
   background-color: rgba(206, 102, 102, 0.585);
   border-radius: 1rem;
@@ -55,10 +55,10 @@ body {
 }
 
 ul input[type="radio"] {
-  /* display: none; */
+  display: none;
 }
 
-.nav_item input[type="radio"]:checked + a {
+ul input[type="radio"]:checked + a {
   display: block;
   background-color: #505050;
   color: #eee;

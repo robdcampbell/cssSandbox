@@ -60,6 +60,24 @@ main{
   min-height: 60vh;
 }
 
+ul a {
+  pointer-events: none;
+  display: block;
+  color: #9f9fa0;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  transition: all 200ms ease;
+}
+
+ul input[type="radio"] {
+  display: none;
+}
+
+ul input[type="radio"]:checked + a {
+  background-color: red;
+}
+
 /* FOOTER */
 footer {
   border-top: 1px #ccc solid;
