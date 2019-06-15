@@ -71,7 +71,7 @@ ul a {
 }
 
 ul input[type="radio"] {
-  display: none;
+  /* display: none; */
 }
 
 ul input[type="radio"]:checked + a {

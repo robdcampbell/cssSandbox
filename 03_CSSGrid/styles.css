@@ -32,6 +32,7 @@ body {
   list-style-type: none;
   padding: .5rem .5rem;
 
+  display: flex;
   /* display: grid;
   grid-template-columns: 1fr repeat(3,auto);
   grid-gap: .5rem;
@@ -39,11 +40,9 @@ body {
    */
 }
 
-.nav_item {
-  display: block;
-}
 
-ul .nav_link {
+
+ul a {
   display: block;
   background-color: rgba(206, 102, 102, 0.585);
   border-radius: 1rem;
@@ -51,11 +50,11 @@ ul .nav_link {
   margin: .2rem 0;
   padding: .25rem;
   text-decoration: none;
-  transition: 200ms ease;
+  transition: all 200ms ease;
 }
 
 ul input[type="radio"] {
-  display: none;
+  /* display: none; */
 }
 
 ul input[type="radio"]:checked + a {
