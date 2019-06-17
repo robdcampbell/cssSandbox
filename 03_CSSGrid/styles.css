@@ -26,21 +26,21 @@ body {
 
 /* _________nav_________ */
 
-.nav_list {
-  background-color:rgba(238, 77, 75, 0.4);
-  border-bottom: #eee 1px solid;
-  list-style-type: none;
-  padding: .5rem .5rem;
-
-  display: flex;
+ /* display: flex; */
   /* display: grid;
   grid-template-columns: 1fr repeat(3,auto);
   grid-gap: .5rem;
   justify-items: start;
    */
+
+/* 
+ul {
+  background-color:rgba(238, 77, 75, 0.4);
+  border-bottom: #eee 1px solid;
+  list-style-type: none;
+  padding: .5rem .5rem;
+
 }
-
-
 
 ul a {
   display: block;
@@ -54,7 +54,7 @@ ul a {
 }
 
 ul input[type="radio"] {
-  /* display: none; */
+  display:none;
 }
 
 ul input[type="radio"]:checked + a {
@@ -63,7 +63,7 @@ ul input[type="radio"]:checked + a {
   color: #eee;
 }
 
-/* main */
+
 main {
   padding: 1rem;
 }
@@ -74,4 +74,22 @@ main h1 {
 
 main h2 {
   color: rgba(238, 238, 238, 0.742);
+} */
+
+ul a {
+  pointer-events: none;
+  display: block;
+  color: #9f9fa0;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  transition: all 200ms ease;
+}
+
+ul input[type="radio"] {
+  display: none; 
+}
+
+ul input[type="radio"]:checked + a {
+  background-color: red;
 }
