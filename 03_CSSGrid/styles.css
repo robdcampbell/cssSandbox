@@ -50,7 +50,7 @@ ul {
 ul a {
   pointer-events: none;
   display: block;
-  background-color: rgba(206, 102, 102, 0.585);
+  background-color:none;
   border-radius: 1rem;
   color: #eee;
   margin: .2rem 0;
