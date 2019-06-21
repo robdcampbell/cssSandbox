@@ -1,3 +1,32 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
+
+ul {
+  border-radius: 1rem;
+  border-bottom: 1px solid #f4f4f4;
+  display: flex;
+  list-style: none;
+  margin:0;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+ul a {
+  border-radius: 1rem;
+  color: #ccc;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.bubble {
+  border-radius: 1rem;
+  border: solid 2px rgba(255,0,0,.3);
+  box-sizing: border-box;
+  height: 2rem;
+  position: absolute;
+  transition: width 200ms ease, left 200ms ease;
+  width: .75rem;
+}
