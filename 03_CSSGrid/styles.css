@@ -73,6 +73,7 @@ ul input[type="radio"]:checked + a {
 */
 
 main {
+  display: grid;
   padding: 1rem;
 }
 
@@ -83,6 +84,11 @@ main h1 {
 main h2 {
   color: rgba(238, 238, 238, 0.742);
 } 
+
+.main-header {
+  display: grid;
+  justify-content: center;
+}
 
 /* ul a {
   pointer-events: none;
