@@ -26,6 +26,14 @@ body {
 
 /* _________nav_________ */
 
+
+/*
+    Goals: 
+      1) mobile media queries
+      2) hamburger nav
+      3) 
+*/
+
  /* display: flex; */
   /* display: grid;
   grid-template-columns: 1fr repeat(3,auto);
@@ -59,18 +67,16 @@ ul a {
   transition: all 200ms ease;
 }
 
-/* 
 ul input[type="radio"] {
-  display:none;
+  display: none; 
 }
 
 ul input[type="radio"]:checked + a {
-  display: block;
-  background-color: #505050;
-  color: #eee;
+  background-color: rgba(255, 0, 0,.4);
 }
 
-*/
+
+/* _________Main_________ */
 
 main {
   display: grid;
@@ -90,21 +96,15 @@ main h2 {
   justify-content: center;
 }
 
-/* ul a {
-  pointer-events: none;
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 1rem;
-  transition: all 400ms ease;
-} */
+/* _________Cards_________ */
 
-ul input[type="radio"] {
-  display: none; 
+.card {
+  border: 1px rgba(238, 238, 238, 0.742) solid;
+  border-radius: .5rem;
+  display: grid;
+  justify-items: center;
+  min-height: 30vh;
+  padding: 1rem;
+  margin:1rem;
 }
 
-ul input[type="radio"]:checked + a {
-  background-color: rgba(255, 0, 0,.4);
-  
-}
