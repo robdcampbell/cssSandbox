@@ -108,3 +108,18 @@ main h2 {
   margin:1rem;
 }
 
+.card_body {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap: 1rem;
+  
+}
+
+.box{
+  background-color: red;
+  display: inline;
+  border: 1px #ccc solid;
+  padding: 1rem;
+}
+
