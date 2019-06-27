@@ -119,9 +119,11 @@ main h2 {
 }
 
 .box{
-  background-color: red;
+  
+  background-color:rgba(255, 0, 1,.6);
   display: inline;
   border: 1px #ccc solid;
+  border-radius: 2rem;
   padding: 1rem;
 }
 
