@@ -81,6 +81,7 @@ ul input[type="radio"]:checked + a {
 
 main {
   display: grid;
+  justify-items: center;
   padding: 1rem;
 }
 
@@ -125,6 +126,22 @@ main h2 {
   border: 1px #ccc solid;
   border-radius: 2rem;
   padding: 1rem;
+}
+
+
+/* _________SPECIFIC_Cards_________ */
+
+.card_one {
+
+}
+
+.card_two {
+  display: grid;
+  justify-items: 1fr;
+}
+ 
+.card_three {
+ 
 }
 
 
