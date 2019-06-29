@@ -136,12 +136,14 @@ main h2 {
 }
 
 .card_two {
+  background-color: #fff;
   display: grid;
-  justify-items: 1fr;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: center;
 }
  
 .card_three {
- 
+  
 }
 
 
