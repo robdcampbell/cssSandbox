@@ -183,6 +183,7 @@ main h2 {
 .card_five {
   background-color: #fff;
   border-radius: .25rem;
+  grid-template-columns: repeat(5,auto);
   padding: 2rem;
 }
 
