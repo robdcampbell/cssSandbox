@@ -13,19 +13,26 @@
     top: 100%;
 
     /* It should be on the top of other elements */
-    background-color: #FFF;
+    background-color: #fafafa;
     z-index: 9999;
 
     /* Size */
     /* /* height: 200px; */
-    width: 200px;
+    /* width: 200px; */
 }
 
 /* Show the content when hover on the container */
 .dropdown:hover .dropdown__content {
     display: flex;
     flex-direction: column;
-
     border: #c7c7c7 solid 1px;
+}
 
+.dropdown__link {
+  text-decoration: none;
+  color: #3a3a3a;
+  margin: .25rem;
+}
+.dropdown__link:hover {
+  color: #c0c0c0
 }
