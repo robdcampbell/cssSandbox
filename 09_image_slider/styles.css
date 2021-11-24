@@ -86,8 +86,8 @@ h1 {
   margin: auto;
 }
 #prev {
-  left: 0px;
+  left: 0.5rem;
 }
 #next {
-  right: 0px;
+  right: 0.5rem;
 }
